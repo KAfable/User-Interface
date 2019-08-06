@@ -62,13 +62,13 @@ h1, h2, h3, h4, h5 {
 body {
 	max-width: 1024px;
 	margin: 0 auto;
-	padding: 20px 75px;
+	padding: 0px 75px 75px 75px;
 }
 
 .nav-container {
-	width: 100%;
 	margin-bottom: 75px;
-	position: relative;
+	position: fixed;
+	background-color: gray;
 }
 
 .nav-container nav, img {
@@ -77,16 +77,18 @@ body {
 }
 
 nav {
-	padding-top: 12px;
+	padding: 12px 0px 12px 12px;
 }
 
 nav a {
 	margin: 20px 60px 0px 0px;
-	color: rgba(128, 128, 128, .7);
+	color: #fff;
 	text-decoration: none;
 }
 
 .action-container {
+	margin: 0px 0px 0px 0px;
+	padding-top: 70px;
 	text-align: center;
 	border-bottom: 1px solid black;
 	padding-bottom: 75px;
@@ -170,7 +172,4 @@ How to get About to go to the right?
 
  */
 
-.logo {
-	position: absolute;
-	right: 0px;
-}
+.logo {}
