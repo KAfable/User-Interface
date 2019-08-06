@@ -61,12 +61,14 @@ h1, h2, h3, h4, h5 {
 
 body {
 	max-width: 1024px;
-	margin: 40px 74px 40px 74px;
+	margin: 0 auto;
+	padding: 20px 75px;
 }
 
 .nav-container {
 	width: 100%;
 	margin-bottom: 75px;
+	position: relative;
 }
 
 .nav-container nav, img {
@@ -74,9 +76,13 @@ body {
 	vertical-align: middle;
 }
 
+nav {
+	padding-top: 12px;
+}
+
 nav a {
-	margin: 0px 80px 0px 0px;
-	color: rgba(128, 128, 128, .5);
+	margin: 20px 60px 0px 0px;
+	color: rgba(128, 128, 128, .7);
 	text-decoration: none;
 }
 
@@ -91,14 +97,14 @@ nav a {
 }
 
 .action-container img {
-	margin-left: 60px;
+	margin-left: 40px;
 }
 
 .action-container-inner {
 	display: inline-block;
 	vertical-align: middle;
 	max-width: 379px;
-	margin-right: 60px;
+	margin-right: 40px;
 }
 
 h1 {
@@ -116,16 +122,17 @@ button {
 
 .content-first {
 	display: inline-block;
-	max-width: 45%;
-	margin: 40px 0px 40px 0px;
+	max-width: 47%;
+	margin: 40px 0px;
 }
 
-.content-first:nth-child(1) {
-	margin-right: 20px;
+.first-section {
+	position: relative;
 }
 
 .content-first:nth-child(2) {
-	margin-left: 20px;
+	position: absolute;
+	right: 0px;
 }
 
 .middle-img {
@@ -134,13 +141,13 @@ button {
 
 .content-second {
 	display: inline-block;
-	max-width: 30%;
+	max-width: 31%;
 	margin: 40px 0px 40px 0px;
 }
 
 .content-second:nth-child(2) {
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .second-section {
@@ -150,4 +157,20 @@ button {
 #footer {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 40px;
+}
+
+#copyright {
+	padding: 100px;
+	text-align: center;
+}
+
+/* 
+Great Idea Logo is flush right?
+How to get About to go to the right?
+
+ */
+
+.logo {
+	position: absolute;
+	right: 0px;
 }
