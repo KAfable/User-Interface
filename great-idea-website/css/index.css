@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	max-width: 1024px;
-	margin: 40px 60px 40px 60px;
+	margin: 40px 74px 40px 74px;
 }
 
 .nav-container {
@@ -112,4 +112,37 @@ button {
 	background-color: white;
 	border: 1px solid black;
 	padding: 5px 50px 5px 50px;
+}
+
+.content-first {
+	display: inline-block;
+	max-width: 45%;
+	margin: 40px 0px 40px 0px;
+}
+
+.content-first:nth-child(1) {
+	margin-right: 20px;
+}
+
+.content-first:nth-child(2) {
+	margin-left: 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.content-second {
+	display: inline-block;
+	max-width: 30%;
+	margin: 40px 0px 40px 0px;
+}
+
+.content-second:nth-child(2) {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.second-section {
+	border-bottom: 1px solid black;
 }
